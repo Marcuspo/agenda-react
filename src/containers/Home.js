@@ -7,8 +7,8 @@ export default class Home extends Component{
             <div className='Home'>
                 <div className='container'>
                     <div className='lander'>
-                        <h1>Agenda Online</h1>
-                        <p>Uma agenda simples para pessoas simples.</p>
+                        <h1>Notas online</h1>
+                        <p>Uma agenda de notas simples para pessoas simples.</p>
                     </div>
                 </div>    
             </div>

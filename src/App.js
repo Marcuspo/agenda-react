@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Routes from './Routes';
 import fire from './config/Fire';
-import { Link, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 class App extends Component{
 
@@ -55,7 +55,7 @@ class App extends Component{
           <nav class="navbar navbar-inverse">
             <div class="container-fluid">
               <div class="navbar-header">
-                <a class="navbar-brand" href="/">Agenda online</a>
+                <a class="navbar-brand" href="/">Notas online</a>
               </div>
               <div>
               {this.state.user ? 
